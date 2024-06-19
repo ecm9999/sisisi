@@ -23,7 +23,7 @@ jobs:
     - name: Run training
       run: python train.py
       
-- name: Upload plot
+    - name: Upload plot
       uses: actions/upload-artifact@v2
       with:
         name: clusters-plot
