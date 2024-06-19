@@ -9,7 +9,7 @@ import scipy.stats
 import statsmodels.formula.api as sm
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-from mpl_toolkits.mplot3d import Axes3D
+from mpl_toolkits.mplot3d import Axes3D 
 
 #datasets 
 #dataset1=csv_egresos.csv= data1.csv 
