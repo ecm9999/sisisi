@@ -84,7 +84,7 @@ def plots_model():
         ys = RFM1[RFM1.grupos == x]['ScoreTotal']
         ax.scatter(xs, ys, zs, s=50, alpha=0.6, edgecolors='w', label = x)
 
-     plt.legend()
+     #plt.legend()
      plt.title('Clusters del Modelo KMeans')
      plt.savefig('clusters_plot.png')  # Guardar el gráfico como un archivo PNG
 
