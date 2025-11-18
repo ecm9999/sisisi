@@ -2,7 +2,7 @@ name: CI for ML project
 
 on: [push]
 
-jobs:
+jobs: 
   build:
     runs-on: ubuntu-latest
     
