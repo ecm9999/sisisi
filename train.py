@@ -75,7 +75,7 @@ df_norm = pd.DataFrame(data_sc, columns=Data_RFM1.columns)
 
 #plots 
 def plots_model():    
-    fig = plt.figure(figsize=(10, 7))
+    fig = plt.figure(figsize=(11, 7))
     ax = fig.add_subplot(111, projection='3d')
     
     for x in RFM1.grupos.unique():        
